@@ -1,0 +1,1394 @@
+{
+  "mod": {
+    "name": "The Justicar",
+    "version": "3.0.1",
+    "authors": ["Lyren"],
+    "credits": "Basemod, ModTheSpire",
+    "description": "A Warrior of Fire and Faith. Determined the slay the Evils of the Spire.",
+    "mts_version": "3.8.0",
+    "sts_version": "2.3",
+    "dependencies": ["basemod","stslib","actlikeit"],
+    "optional_dependencies": []
+  },
+  "cards": [
+    {
+      "name": "Day of Reckoning",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Skill",
+      "cost": "1",
+      "description": "thedragonkin:Exalt 5 : Shuffle a Final Hour into your drawpile.\nExhaust."
+    },
+    {
+      "name": "Day of Reckoning+",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Skill",
+      "cost": "1",
+      "description": "thedragonkin:Exalt 5 : Shuffle a Final Hour into your drawpile.\nExhaust."
+    },
+    {
+      "name": "Divine Ember",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Status",
+      "cost": "1",
+      "description": "Take 3 damage.\nthedragonkin:Exalt 2 - Add a copy of the card this replaced to your hand with Exhaust and Ethereal."
+    },
+    {
+      "name": "Final Hour",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Skill",
+      "cost": "1",
+      "description": "thedragonkin:Exalt 5 : Apply 36 thedragonkin:Penance to ALL enemies.\nExhaust."
+    },
+    {
+      "name": "Final Hour+",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Skill",
+      "cost": "1",
+      "description": "thedragonkin:Exalt 4 : Apply 52 thedragonkin:Penance to ALL enemies.\nExhaust."
+    },
+    {
+      "name": "Molten Ember",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Gain 8 Block.\nExhaust\nthedragonkin:Sealed: Increase this cards Block gain by 4 this turn."
+    },
+    {
+      "name": "Molten Ember+",
+      "color": "Colorless",
+      "rarity": "Special",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Gain 10 Block.\nExhaust\nthedragonkin:Sealed: Increase this cards Block gain by 6 this turn."
+    },
+    {
+      "name": "Blazing Breath",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 3 damage\nApply 3 thedragonkin:Scorch.\nDiscard a card."
+    },
+    {
+      "name": "Blazing Breath+",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 5 damage\nApply 4 thedragonkin:Scorch.\nDiscard a card."
+    },
+    {
+      "name": "Defend",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 5 Block."
+    },
+    {
+      "name": "Defend+",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 8 Block."
+    },
+    {
+      "name": "Holy Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 5 damage twice. thedragonkin:Exalt 1 : Apply 2 Vulnerable and Weak."
+    },
+    {
+      "name": "Holy Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 7 damage twice. thedragonkin:Exalt 1 : Apply 2 Vulnerable and Weak."
+    },
+    {
+      "name": "Strike",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 6 damage."
+    },
+    {
+      "name": "Strike+",
+      "color": "Justicar_red_color",
+      "rarity": "Basic",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 10 damage."
+    },
+    {
+      "name": "Blinding Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 8 damage.\nDeal 8 damage to all enemies with Weak. Apply 2 Weak."
+    },
+    {
+      "name": "Blinding Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 10 damage.\nDeal 10 damage to all enemies with Weak. Apply 2 Weak."
+    },
+    {
+      "name": "Condemn",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Apply 5 thedragonkin:Penance."
+    },
+    {
+      "name": "Condemn+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Apply 7 thedragonkin:Penance."
+    },
+    {
+      "name": "Ember Swipe",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 5 damage and apply 2 thedragonkin:Scorch to ALL enemies."
+    },
+    {
+      "name": "Ember Swipe+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 7 damage and apply 3 thedragonkin:Scorch to ALL enemies."
+    },
+    {
+      "name": "Flame Claw",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 12 damage.\nShuffle 1 Burn into your draw pile."
+    },
+    {
+      "name": "Flame Claw+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 17 damage.\nShuffle 1 Burn into your draw pile."
+    },
+    {
+      "name": "Flame Ward",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 10 Block.\nShuffle a Burn to your draw pile."
+    },
+    {
+      "name": "Flame Ward+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 14 Block.\nShuffle a Burn to your draw pile."
+    },
+    {
+      "name": "Flareburst",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 6 [theDragonkin:FireIcon] damage.\nthedragonkin:Cycle 1 card."
+    },
+    {
+      "name": "Flareburst+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 7 [theDragonkin:FireIcon] damage.\nthedragonkin:Cycle 2 [diffAddS] cards. [diffAddE] "
+    },
+    {
+      "name": "Heat Shield",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 7 Block.\nDiscard a card.\nReturn this to your hand if you discarded a Status or Primal card."
+    },
+    {
+      "name": "Heat Shield+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 10 Block.\nDiscard a card.\nReturn this to your hand if you discarded a Status or Primal card."
+    },
+    {
+      "name": "Holy Barrier",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 7 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Holy Barrier+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 9 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Holy Fire",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 8 [theDragonkin:FireIcon] damage"
+    },
+    {
+      "name": "Holy Fire+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 10 [theDragonkin:FireIcon] damage"
+    },
+    {
+      "name": "Latent Power",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Next turn, draw a card.\nthedragonkin:Sanctify 2 : gain 8 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Latent Power+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Next turn, draw a card.\nthedragonkin:Sanctify 2 : gain 11 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Magma Armor",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 8 Block.\nthedragonkin:Sealed: Increase this cards Block gain by 4 this turn."
+    },
+    {
+      "name": "Magma Armor+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 10 Block.\nthedragonkin:Sealed: Increase this cards Block gain by 6 this turn."
+    },
+    {
+      "name": "Penance Shock",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 5 damage a random enemy twice\nthedragonkin:Exalt 2 : Apply 3 thedragonkin:Penance to enemies damaged."
+    },
+    {
+      "name": "Penance Shock+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 7 damage a random enemy twice\nthedragonkin:Exalt 2 : Apply 3 thedragonkin:Penance to enemies damaged."
+    },
+    {
+      "name": "Razor Wind",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 4 damage.\nNext turn, draw a card.\nNext turn, gain 10 temporary Strength."
+    },
+    {
+      "name": "Razor Wind+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 5 damage.\nNext turn, draw a card.\nNext turn, gain 10 temporary Strength."
+    },
+    {
+      "name": "Resilience",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Gain 10 Block.\nthedragonkin:Cycle 1 card"
+    },
+    {
+      "name": "Resilience+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Gain 13 Block.\nthedragonkin:Cycle 1 card"
+    },
+    {
+      "name": "Sanctuary",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 10 Block.\nthedragonkin:Exalt 2 : Until next turn, apply 3 thedragonkin:Penance to attackers."
+    },
+    {
+      "name": "Sanctuary+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 14 Block.\nthedragonkin:Exalt 2 : Until next turn, apply 3 thedragonkin:Penance to attackers."
+    },
+    {
+      "name": "Searing Light",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 3 damage.\nGain 11 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Searing Light+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 1 damage.\nGain 11 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Skyward Strike",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 8 damage.\nIf you Discarded a card this turn, gain [E]."
+    },
+    {
+      "name": "Skyward Strike+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 11 damage.\nIf you Discarded a card this turn, gain [E]."
+    },
+    {
+      "name": "Sunburst",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 6 damage.\nthedragonkin:Sanctify 1 : gain 6 Block."
+    },
+    {
+      "name": "Sunburst+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 8 damage.\nthedragonkin:Sanctify 1 : gain 8 Block."
+    },
+    {
+      "name": "Tail Sweep",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Gain 10 Block.\nApply 2 Weak to ALL enemies."
+    },
+    {
+      "name": "Tail Sweep+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Gain 14 Block.\nApply 2 Weak to ALL enemies."
+    },
+    {
+      "name": "Wrath",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "thedragonkin:Tribute 4 : Deal 10 damage to a random enemy."
+    },
+    {
+      "name": "Wrath+",
+      "color": "Justicar_red_color",
+      "rarity": "Common",
+      "type": "Attack",
+      "cost": "1",
+      "description": "thedragonkin:Tribute 4 : Deal 13 damage to a random enemy."
+    },
+    {
+      "name": "Ancestral Seance",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Choose 1 of 3 Primal cards.\nAdd it to your hand.\nIt costs 0 this turn.\nExhaust."
+    },
+    {
+      "name": "Ancestral Seance+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Choose 1 of 3 Primal cards.\nAdd it to your hand.\nIt costs 0 this turn.\nExhaust."
+    },
+    {
+      "name": "Blazing Gambit",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Take 6 [theDragonkin:FireIcon] damage.\nthedragonkin:Cycle 2 cards.\nDeal 4 [theDragonkin:FireIcon] damage to a random enemy for each."
+    },
+    {
+      "name": "Blazing Gambit+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Take 6 [theDragonkin:FireIcon] damage.\nthedragonkin:Cycle 3 cards.\nDeal 6 [theDragonkin:FireIcon] damage to a random enemy for each."
+    },
+    {
+      "name": "Blessed Shield",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 9 Block.\nthedragonkin:Tribute 6: Increase this cards Block by 3."
+    },
+    {
+      "name": "Blessed Shield+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 12 Block.\nthedragonkin:Tribute 6: Increase this cards Block by 3."
+    },
+    {
+      "name": "Blessed Strike",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 10 damage.\nthedragonkin:Tribute 8: Increase this card's damage by 3."
+    },
+    {
+      "name": "Blessed Strike+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 12 damage.\nthedragonkin:Tribute 8: Increase this card's damage by 4."
+    },
+    {
+      "name": "Branding Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 8 [theDragonkin:FireIcon] damage.\nthedragonkin:Tribute 10 : Deal 8 [theDragonkin:FireIcon] damage to a random enemy twice."
+    },
+    {
+      "name": "Branding Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 10 [theDragonkin:FireIcon] damage.\nthedragonkin:Tribute 10 : Deal 10 [theDragonkin:FireIcon] damage to a random enemy twice."
+    },
+    {
+      "name": "Chains of Truth",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 6 damage to all enemies.\nApply 2 thedragonkin:Penance to enemies damaged.\nthedragonkin:Exalt 2 : Also Apply 2 Vulnerable"
+    },
+    {
+      "name": "Chains of Truth+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 8 damage to all enemies.\nApply 2 thedragonkin:Penance to enemies damaged.\nthedragonkin:Exalt 2 : Also Apply 2 Vulnerable"
+    },
+    {
+      "name": "Divine Prayer",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Choose 1 of 3 Holy Dragonkin cards to add to your hand.\nIt costs 0 until played.\nExhaust."
+    },
+    {
+      "name": "Divine Prayer+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Choose 1 of 3 Holy Dragonkin cards to add to your hand.\nIt costs 0 until played.\nExhaust."
+    },
+    {
+      "name": "Divine Shield",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "X",
+      "description": "Gain 5 [theDragonkin:LightIcon] X + 1 Times.\nExhaust."
+    },
+    {
+      "name": "Divine Shield+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "X",
+      "description": "Gain 7 [theDragonkin:LightIcon] X + 1 Times.\nExhaust."
+    },
+    {
+      "name": "Divine Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 14 damage. Increase the damage of all your Smite cards by 3"
+    },
+    {
+      "name": "Divine Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 14 damage. Increase the damage of all your Smite cards by 4"
+    },
+    {
+      "name": "Divine Vision",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "Increase the damage and Block of your Holy cards by 2."
+    },
+    {
+      "name": "Divine Vision+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "Increase the damage and Block of your Holy cards by 3."
+    },
+    {
+      "name": "Flarestrike",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 8 damage.\nthedragonkin:Sealed: Increase this cards damage by 2 this combat."
+    },
+    {
+      "name": "Flarestrike+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 10 damage.\nthedragonkin:Sealed: Increase this cards damage by 2 this combat."
+    },
+    {
+      "name": "Fortitude",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 1 damage.\nGain 1 Temporary thedragonkin:Holy_Power.\nthedragonkin:Tribute 8 : Gain 1 Dexterity, removed at the start of your turn after activating twice."
+    },
+    {
+      "name": "Fortitude+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 1 damage.\nGain 1 Temporary thedragonkin:Holy_Power.\nthedragonkin:Tribute 8 : Gain 1 Dexterity, removed at the start of your turn after activating twice."
+    },
+    {
+      "name": "Gaze of Ash",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Choose up to 2 of the top 5 cards in your draw pile.\nDraw the chosen cards, discard the rest.\nTransform cards discarded into Burns"
+    },
+    {
+      "name": "Gaze of Ash+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Choose up to 3 of the top 6 cards in your draw pile.\nDraw the chosen cards, discard the rest.\nTransform cards discarded into Burns"
+    },
+    {
+      "name": "Golden Flame",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 6 [theDragonkin:FireIcon] damage.\ngain 6 [theDragonkin:LightIcon] .\nthedragonkin:Sealed : Increase this cards damage and [theDragonkin:LightIcon] Gain by 2 this combat."
+    },
+    {
+      "name": "Golden Flame+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 8 [theDragonkin:FireIcon] damage.\ngain 8 [theDragonkin:LightIcon] .\nthedragonkin:Sealed : Increase this cards damage and [theDragonkin:LightIcon] Gain by 2 this combat."
+    },
+    {
+      "name": "Holy Aegis",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 6 [theDragonkin:LightIcon] twice.\nExhaust."
+    },
+    {
+      "name": "Holy Aegis+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Gain 7 [theDragonkin:LightIcon] twice.\nExhaust."
+    },
+    {
+      "name": "Incendiary Flow",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "",
+      "description": "Unplayable.\nthedragonkin:Sealed: If this is in your hand thedragonkin:Cycle this, otherwise Deal 2 damage to a random enemy."
+    },
+    {
+      "name": "Incendiary Flow+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "",
+      "description": "Unplayable.\nthedragonkin:Sealed: If this is in your hand thedragonkin:Cycle this, otherwise Deal 3 damage to a random enemy."
+    },
+    {
+      "name": "Inner Fire",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 2 damage.\nthedragonkin:Sanctify 3 :\nFor each Holy card gain 2 thedragonkin:Sacrifice"
+    },
+    {
+      "name": "Inner Fire+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 2 damage.\nthedragonkin:Sanctify 4 :\nFor each Holy card gain 3 thedragonkin:Sacrifice"
+    },
+    {
+      "name": "Inquisitor's Brand",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 4 damage.\nthedragonkin:Sanctify 2 : for each Holy card discarded, thedragonkin:Tribute 7 : Deal 10 damage to a random enemy."
+    },
+    {
+      "name": "Inquisitor's Brand+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 4 damage.\nthedragonkin:Sanctify 3 : for each Holy card discarded, thedragonkin:Tribute 7 : Deal 10 damage to a random enemy."
+    },
+    {
+      "name": "Magma Scales",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "Whenever you take damage during your turn, apply 1 thedragonkin:Scorch to ALL enemies."
+    },
+    {
+      "name": "Magma Scales+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "Whenever you take damage during your turn, apply 2 thedragonkin:Scorch to ALL enemies."
+    },
+    {
+      "name": "Might",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 2 damage.\nGain 2 Temporary thedragonkin:Holy_Power.\nthedragonkin:Tribute 8 : Gain 2 Strength."
+    },
+    {
+      "name": "Might+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Take 3 damage.\nGain 3 Temporary thedragonkin:Holy_Power.\nthedragonkin:Tribute 8 : Gain 3 Strength."
+    },
+    {
+      "name": "Pain Syphon",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "1",
+      "description": "When you apply a Debuff, Gain 2 Block."
+    },
+    {
+      "name": "Pain Syphon+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "1",
+      "description": "When you apply a Debuff, Gain 3 Block."
+    },
+    {
+      "name": "Radiant Dawn",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "0",
+      "description": "thedragonkin:Exalt 1 : Gain [E] [E]\nGain 10 Block."
+    },
+    {
+      "name": "Radiant Dawn+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "0",
+      "description": "thedragonkin:Exalt 1 : [diffAddS]\n[diffAddE] Gain [E] [E] [diffAddS] [E] [diffAddE]\nGain 14 Block. "
+    },
+    {
+      "name": "Sacred Trial",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Take 7 damage.\nDeal 14 damage to ALL enemies."
+    },
+    {
+      "name": "Sacred Trial+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Take 5 damage.\nDeal 16 damage to ALL enemies."
+    },
+    {
+      "name": "Searing Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Take 3 damage.\nDeal 16 damage.\nAdd a Burn to your discard pile."
+    },
+    {
+      "name": "Searing Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Take 3 damage.\nDeal 17 damage.\nAdd a Burn to your discard pile."
+    },
+    {
+      "name": "Steel Will",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Gain 12 Block.\nUntil your next turn instead of being debuffed, take 5 damage."
+    },
+    {
+      "name": "Steel Will+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Gain 16 Block.\nUntil your next turn instead of being debuffed, take 5 damage."
+    },
+    {
+      "name": "Suffering Synapses",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Apply 2 Weak.\nDeal 4 damage for each Debuff the target has to ALL enemies."
+    },
+    {
+      "name": "Suffering Synapses+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Apply 2 Weak.\nDeal 6 damage for each Debuff the target has to ALL enemies."
+    },
+    {
+      "name": "Sunbeam",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 7 damage.\nTake 3 damage.\nApply 2 Weak."
+    },
+    {
+      "name": "Sunbeam+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 9 damage.\nTake 4 damage.\nApply 3 Weak."
+    },
+    {
+      "name": "Tail Slam",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Take 5 damage.\nGain 20 Block.\nDeal 10 damage to ALL enemies."
+    },
+    {
+      "name": "Tail Slam+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Take 5 damage.\nGain 23 Block.\nDeal 11 damage to ALL enemies."
+    },
+    {
+      "name": "Thunderous Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 8 damage to a random enemy 3 Times.\nThis strikes an additional time for each thedragonkin:Tribute Seal you currently have."
+    },
+    {
+      "name": "Thunderous Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Attack",
+      "cost": "2",
+      "description": "Deal 10 damage to a random enemy 3 Times.\nThis strikes an additional time for each thedragonkin:Tribute Seal you currently have."
+    },
+    {
+      "name": "Unbroken",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "The first time you take damage each turn, gain that much Block next turn."
+    },
+    {
+      "name": "Unbroken+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "The first time you take damage each turn, gain that much Block next turn."
+    },
+    {
+      "name": "Weight of Contrition",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Apply 3 thedragonkin:Penance.\nPenance deals 2 additional damage this combat"
+    },
+    {
+      "name": "Weight of Contrition+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Apply 3 thedragonkin:Penance.\nPenance deals 4 additional damage this combat"
+    },
+    {
+      "name": "Wings of Light",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": "The first time a thedragonkin:Tribute Seal breaks each turn gain 6 [theDragonkin:LightIcon] ."
+    },
+    {
+      "name": "Wings of Light+",
+      "color": "Justicar_red_color",
+      "rarity": "Uncommon",
+      "type": "Power",
+      "cost": "2",
+      "description": " [diffAddS] Innate.\n[diffAddE] The first time a thedragonkin:Tribute Seal breaks each turn gain 6 [theDragonkin:LightIcon] . "
+    },
+    {
+      "name": "Absolution",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Apply 8 thedragonkin:Penance.\nGain 8 [theDragonkin:LightIcon] .\nthedragonkin:Exalt 4 : Penance deals 20 additional damage this combat."
+    },
+    {
+      "name": "Absolution+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Apply 8 thedragonkin:Penance.\nGain 12 [theDragonkin:LightIcon] .\nthedragonkin:Exalt 4 : Penance deals 35 additional damage this combat."
+    },
+    {
+      "name": "Burn After Reading",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Draw 2 cards. They have Exhaust this turn.\nExhaust"
+    },
+    {
+      "name": "Burn After Reading+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "0",
+      "description": "Draw 4 cards. They have Exhaust this turn.\nExhaust"
+    },
+    {
+      "name": "Cinderstorm",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "1",
+      "description": "thedragonkin:Cycle any number of cards, deal 7 damage to a random enemy for each.\nExhaust."
+    },
+    {
+      "name": "Cinderstorm+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "1",
+      "description": "thedragonkin:Cycle any number of cards, deal 12 damage to a random enemy for each.\nExhaust."
+    },
+    {
+      "name": "Condemnation",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": "In 3 turns, Deal 40 damage to ALL enemies."
+    },
+    {
+      "name": "Condemnation+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": "In 2 turns, Deal 40 damage to ALL enemies."
+    },
+    {
+      "name": "Detox",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Ethereal. Gain 1 Strength and Dexterity for each Debuff an enemy has.\nHalve each one.\nExhaust."
+    },
+    {
+      "name": "Detox+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": " [diffRmvS] Ethereal. [diffRmvE] Gain 1 Strength and Dexterity for each Debuff an enemy has.\n[diffRmvS] Halve each one.\n[diffRmvE] Exhaust. "
+    },
+    {
+      "name": "Divine Retribution",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "2",
+      "description": "At the end of your turn deal damage to a random enemy equal to twice the damage you've taken and blocked this turn."
+    },
+    {
+      "name": "Divine Retribution+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "1",
+      "description": "At the end of your turn deal damage to a random enemy equal to twice the damage you've taken and blocked this turn."
+    },
+    {
+      "name": "Divine Storm",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "X",
+      "description": "Deal 9 damage to a random enemy X times.\nExhaust."
+    },
+    {
+      "name": "Divine Storm+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "X",
+      "description": " [diffAddS] Retain.\n[diffAddE] Deal 9 damage to a random enemy X [diffAddS] + 2 [diffAddE] times.\nExhaust. "
+    },
+    {
+      "name": "Fire and Brimstone",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "2",
+      "description": "When you draw a Status card, thedragonkin:Cycle it and Deal 8 damage to a random enemy."
+    },
+    {
+      "name": "Fire and Brimstone+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "2",
+      "description": "When you draw a Status card, thedragonkin:Cycle it and Deal 11 damage to a random enemy."
+    },
+    {
+      "name": "Flamestrike",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 12 [theDragonkin:FireIcon] damage to ALL enemies.\nthedragonkin:Sealed: Increase this cards damage by 2 this combat."
+    },
+    {
+      "name": "Flamestrike+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "1",
+      "description": "Deal 16 [theDragonkin:FireIcon] damage to ALL enemies.\nthedragonkin:Sealed: Increase this cards damage by 2 this combat."
+    },
+    {
+      "name": "Incinerate",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "0",
+      "description": "Deal 8 damage.\nDraw 4 Status cards."
+    },
+    {
+      "name": "Incinerate+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "0",
+      "description": "Deal 10 damage.\nDraw 5 Status cards."
+    },
+    {
+      "name": "Lightspeed",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "0",
+      "description": "thedragonkin:Tribute 5 : thedragonkin:Exalt up to 4 : draw that Many cards.\n Draw 2 less cards next turn."
+    },
+    {
+      "name": "Lightspeed+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "0",
+      "description": "thedragonkin:Tribute 5 : thedragonkin:Exalt up to 4 : draw that Many cards.\n Draw 2 less cards next turn."
+    },
+    {
+      "name": "Molten Core",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "2",
+      "description": "When you draw a Status card, thedragonkin:Cycle it and replace it with Molten Ember"
+    },
+    {
+      "name": "Molten Core+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "1",
+      "description": "When you draw a Status card, thedragonkin:Cycle it and replace it with Molten Ember"
+    },
+    {
+      "name": "Pandemic",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "2",
+      "description": "Choose an enemy.\nApply a copy of all its Debuffs to all enemies.\nExhaust."
+    },
+    {
+      "name": "Pandemic+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Choose an enemy.\nApply a copy of all its Debuffs to all enemies.\nExhaust."
+    },
+    {
+      "name": "Path to Ruin",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "4",
+      "description": "Shuffle a Day of Reckoning into your drawpile.\nExhaust."
+    },
+    {
+      "name": "Path to Ruin+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "3",
+      "description": "Shuffle a Day of Reckoning into your drawpile.\nExhaust."
+    },
+    {
+      "name": "Prismatic Blast",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "2",
+      "description": "This cards damage is increased by your [theDragonkin:LightIcon]\nDeal 10 damage to ALL enemies.\nLose all your [theDragonkin:LightIcon] .\nExhaust."
+    },
+    {
+      "name": "Prismatic Blast+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "2",
+      "description": "This cards damage is increased by your [theDragonkin:LightIcon]\nDeal 10 damage to ALL enemies.\nLose [diffAddS] half [diffAddE] your [theDragonkin:LightIcon] .\nExhaust. "
+    },
+    {
+      "name": "Pyroblast",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "6",
+      "description": "Deal 10 damage.\nthedragonkin:Sealed: Increase this cards damage by 10 this combat.\nReduce this cards cost by 1 this combat."
+    },
+    {
+      "name": "Pyroblast+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "6",
+      "description": " [diffAddS] Retain.\n[diffAddE] Deal 10 damage.\nthedragonkin:Sealed: Increase this cards damage by 10 this combat.\nReduce this cards cost by 1 this combat. "
+    },
+    {
+      "name": "Seraph Form",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "3",
+      "description": "Ethereal.\nWhenever play an thedragonkin:Exalted card, next turn gain 1 thedragonkin:Holy_Power and draw a card."
+    },
+    {
+      "name": "Seraph Form+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Power",
+      "cost": "3",
+      "description": " [diffRmvS] Ethereal.\n[diffRmvE] Whenever play an thedragonkin:Exalted card, next turn gain 1 thedragonkin:Holy_Power and draw a card. "
+    },
+    {
+      "name": "Subdue",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "1",
+      "description": "Reduce an enemy's Attack to 1 this turn.\nExhaust."
+    },
+    {
+      "name": "Subdue+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Skill",
+      "cost": "1",
+      "description": " [diffAddS] Retain.\n[diffAddE] Reduce an enemy's Attack to 1 this turn.\nExhaust. "
+    },
+    {
+      "name": "Wrathful Smite",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "0",
+      "description": "Deal 8 [theDragonkin:FireIcon] damage.\nthedragonkin:Sealed : Return this card from your discard pile to your hand."
+    },
+    {
+      "name": "Wrathful Smite+",
+      "color": "Justicar_red_color",
+      "rarity": "Rare",
+      "type": "Attack",
+      "cost": "0",
+      "description": "Deal 11 [theDragonkin:FireIcon] damage.\nthedragonkin:Sealed : Return this card from your discard pile to your hand."
+    }
+  ],
+  "relics": [
+    {
+      "name": "Garnet Scales",
+      "tier": "Starter",
+      "pool": "Justicar_red_color",
+      "description": "At the start of combat, gain 1 Holy Power",
+      "flavorText": "They Pulse with the Warmth of a Dragon's Fury."
+    },
+    {
+      "name": "Sunlight Fragment",
+      "tier": "Uncommon",
+      "pool": "Justicar_red_color",
+      "description": "The First time you draw a Status each turn draw a card and gain 4 [theDragonkin:LightIcon]",
+      "flavorText": "It's warm to the touch."
+    },
+    {
+      "name": "Tilera's Shield",
+      "tier": "Rare",
+      "pool": "Justicar_red_color",
+      "description": "Upon pickup, heal 1 for each relic you have. Whenever you obtain a relic, gain 3 max HP.",
+      "flavorText": "The Aegis of Great Commander Tilera, It stopped many weapons and armored her in Golden Light."
+    },
+    {
+      "name": "Obsidian Scales",
+      "tier": "Boss",
+      "pool": "Justicar_red_color",
+      "description": "Replaces Garnet Scales.\nAfter you discard a Status or Primal card Gain 2 Block and Vigor",
+      "flavorText": "Obsidian power, mastery of the flame that ruled the primordial world"
+    },
+    {
+      "name": "Sulfurian",
+      "tier": "Boss",
+      "pool": "Justicar_red_color",
+      "description": "Gain [E] at the start of your turn. Shuffle 1 Burn into your Discard pile after taking unblocked damage.",
+      "flavorText": "The Great Mace of the Molten Core, known to incinerate anything."
+    },
+    {
+      "name": "Paper Jragon",
+      "tier": "Shop",
+      "pool": "Justicar_red_color",
+      "description": "Scorch Also reduces damage dealt by monsters, and is reduced when they attack.",
+      "flavorText": "Even the most foolish of mortals knew to fear our ancient might and fury."
+    }
+  ],
+  "potions": [
+    {
+      "name": "Draught of Fervor",
+      "rarity": "Common",
+      "description": "Increase your Holy card damage and block gain by 3"
+    },
+    {
+      "name": "Gatlok Brew",
+      "rarity": "Uncommon",
+      "description": "Apply 6 Scorch to ALL enemies"
+    },
+    {
+      "name": "Naruuin's Glow",
+      "rarity": "Rare",
+      "description": "Gain 23 [thedragonkin:LightIcon] Block"
+    }
+  ],
+  "creatures": [
+    {
+      "name": "the Justicar",
+      "type": "Player",
+      "minHP": "85",
+      "maxHP": "85"
+    }
+  ],
+  "keywords": [
+    {
+      "name": "Cycle",
+      "description": "Discard a card and draw a new card to replace it."
+    },
+    {
+      "name": "Divine",
+      "description": "[theDragonkin:LightIcon] Block is Used before other block types and is not lost at the start of your turn."
+    },
+    {
+      "name": "Exalt",
+      "description": "Spend X Holy Power for an effect"
+    },
+    {
+      "name": "Fire",
+      "description": "Fire damage applies Scorch equal to half of unblocked damage dealt."
+    },
+    {
+      "name": "Holy",
+      "description": "Energy spent on Holy cards is accumulated to produce Holy Power which increases the damage and block gain of Holy cards for the rest of combat."
+    },
+    {
+      "name": "Holy Power",
+      "description": "Increases damage and Block gain of Holy cards."
+    },
+    {
+      "name": "Penance",
+      "description": "When a creature obtains 8 Penance, it loses 20 HP and HP loss from this effect is increased by 10 this combat"
+    },
+    {
+      "name": "Primal",
+      "description": "Energy spent on Primal cards applies Scorch to random enemies."
+    },
+    {
+      "name": "Sacrifice",
+      "description": "When you obtain 5 Sacrifice spend it and gain 1 Holy Power."
+    },
+    {
+      "name": "Sanctify",
+      "description": "Discard X cards, Gain the following effect if you Discard a Holy card.\nPrimal, Status and Curse cards discarded become Divine Embers"
+    },
+    {
+      "name": "Scorch",
+      "description": "Scorched creatures take damage equal to their scorch and lose 25% of their scorch when Attacked"
+    },
+    {
+      "name": "Sealed",
+      "description": "Sealed effects activate whenever you discard a Status or Primal card."
+    },
+    {
+      "name": "Tribute",
+      "description": "Perform the following effect every X damage taken or HP lost.\nAt the end of your turn, if you took no damage or HP loss this turn take X damage and remove this effect."
+    }
+  ]
+}
